@@ -1,0 +1,35 @@
+#viewp {
+    border: 2px solid black;
+    width: 1320px;
+    height: 100px;
+}
+
+#spinner {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    text-indent: 0;
+    overflow: hidden;
+}
+
+#spinner .number-square {
+	display: inline-block;
+	height: 100%;
+	width: 120px;
+	white-space: initial;
+	color: white;
+	font-size: 20px;
+	font-family: 'Helvetica';
+}
+
+.red {
+	background-color: red;
+}
+
+.black {
+	background-color: black;
+}
+
+.green {
+	background-color: green;
+}
