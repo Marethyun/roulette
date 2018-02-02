@@ -227,3 +227,12 @@ function getOffset(number) {
 
     return its;
 }
+
+function randomSpin() {
+    do {
+        var spins = Math.floor(Math.random() * 50);
+    } while (spins == 0);
+    
+    spinTimes(numbersCount);
+    spinTimes(spins);
+}
